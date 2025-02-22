@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import {Routes , Route} from 'react-router-dom'
 import Login from "./pages/Login";
 
+
 const App = () => {
   return (
     <div>
@@ -10,7 +11,6 @@ const App = () => {
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
       </Routes>
-      
     </div>
   );
 };
