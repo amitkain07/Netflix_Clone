@@ -1,0 +1,162 @@
+.hero{
+    position: relative;
+}
+
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(to right , transparent, black 75%);
+    -webkit-mask-image : linear-gradient(to right , transparent , black)
+}
+
+.hero-caption{
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0 ;
+
+}
+
+.caption-img {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+.hero-caption p{
+    max-width: 700px ;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.hero-btns{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.hero-btns .btn img{
+    width: 25px;
+}
+
+.hero-btns .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+.hero-btns  .dark-btn {
+    color : #fff;
+    background: #6d6d6eb3;
+    
+}
+
+.hero-btns .btn:hover{
+    background:  #ffffffbf;
+}
+
+.hero-btns .dark-btn:hover{
+    background: #6d6d6e66;
+}
+
+.more-cards{
+    padding-left:  6%;
+}
+
+/* login */
+
+.login{
+    height: 100vh;
+    background-image: linear-gradient(#0000007e, #0000007e) ,url(/background_banner.jpg);
+
+    padding: 20px 8%;
+}
+
+.login-logo{
+    width: 150px;
+
+}
+
+.login-form{
+    width: 100%;
+    max-width: 450px;
+    background: rgba(0,0,0,0.75);
+    border-radius: 4px;
+    padding: 60px;
+    margin: auto;
+}
+
+.login-form h2{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.login-form input{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: white;
+    margin: 12px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.login-form button{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    background: #e50914 ;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form-help{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-size: 13px;
+
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.remember input {
+    width: 18px;
+    height: ;
+}
+
+.form-switch{
+    margin: 14px;
+    color: #737373;
+}
+
+.form-switch span {
+    margin-left: 6px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}

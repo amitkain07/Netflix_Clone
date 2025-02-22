@@ -1,0 +1,144 @@
+/* navbar css */
+.navbar{
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5 ;
+    background-image: linear-gradient(180deg , rgba(0, 0, 0, 0.7) 10% ,transparent);
+    z-index: 1;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar-left img {
+    width: 90px;
+}
+.navbar-left ul {
+    display:  flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-left ul li{
+    cursor: pointer;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-right .icon{
+    width: 20px;
+    cursor: pointer;
+}
+
+.navbar-right .profile {
+    border-radius: 4px;
+    width:35px ;
+}
+
+.navbar-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar .dropdown {
+    position:  absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background-image: #191919;
+    padding: 18px 22px ;
+    border-radius: 2px;
+    text-decoration: underline;
+    z-index: 1;
+    display: none;
+}
+
+.navbar .dropdown .p {
+    font-size: 13px ;
+    cursor: pointer;
+}
+
+.navbar-profile:hover .dropdown {
+    display: block;
+}
+
+/* title cards */
+
+.title-cards{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title-cards h2{
+    margin-bottom: 8px;
+    
+}
+
+.card-list{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+}
+
+.card-list img  {
+    width: 100%;
+    width: 240px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-list .card {
+    position: relative;
+}
+
+.card-list .card p {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+
+}
+
+.footer{
+    padding: 30px 4%;
+    max-width : 1000px;
+    margin: 0 auto;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.footer-icons img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer ul {
+    display:  grid;
+    grid-template-columns:  auto auto  auto auto;
+    gap: 15px;
+    margin-bottom:30px ;
+}
+
+.copyright-text {
+    color:  gray;
+    font-size: 13px;
+    
+}
